@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { getDb, toTicket, allowed, isAdmin } from "../../../lib/db";
+import { getDb, toTicket } from "../../../lib/db";
+import { allowed, isAdmin } from "../../../lib/auth";
 import { EVENTS, TIERS } from "../../../lib/config";
 
 export const dynamic = "force-dynamic";

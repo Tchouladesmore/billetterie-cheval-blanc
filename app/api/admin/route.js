@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { allowed, isAdmin } from "../../../lib/db";
+import { allowed, isAdmin } from "../../../lib/auth";
 
 export const dynamic = "force-dynamic";
 

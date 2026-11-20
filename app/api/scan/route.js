@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { getDb, toTicket, allowed } from "../../../lib/db";
+import { getDb, toTicket } from "../../../lib/db";
+import { allowed } from "../../../lib/auth";
 
 export const dynamic = "force-dynamic";
 
